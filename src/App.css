@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #ffffff, #e3eaf4);
+}
+
+.container {
+  padding: 30px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin-left: 40px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.left-section {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.headline {
+  font-size: 36px;
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 30px;
+}
+
+.car-image {
+  width: 180%;
+  max-width: 650px;
+  margin-right: 120px;
+}
+
+.right-section {
+  flex: 0 0 350px; /* Fixed width for consistency */
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.right-section input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.login {
+  background-color: #3b5998;
+  color: white;
+}
+
+.register {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.or-divider {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+  position: relative;
+}
+
+.or-divider span {
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.or-divider::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  border-top: 1px solid #ccc;
+  z-index: 0;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px;
+}
+
+.social img {
+  object-fit: contain;
+}
+
+/* Separate sizes for Google and Facebook logos */
+.google-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.facebook-icon {
+  width: 28px;
+  height: 28px;
+}

@@ -1,0 +1,79 @@
+.info-form-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2); /* Background gradient */
+}
+
+.info-form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    width: 100%;
+}
+
+.info-logo {
+    display: block; /* Center the logo */
+    margin: 0 auto; /* Center logo horizontally */
+    height: 150px; /* Set a height for the logo */
+}
+
+.info-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.info-form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info-form-group {
+    width: 48%; /* Adjust width for two-column layout */
+}
+
+.info-form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info-form-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.info-button-group {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 50px; /* Add some space above the button group */
+}
+
+.info-button-group button {
+    width: 48%; /* Make buttons take up half the width each */
+    padding: 12px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-button-group button:first-child {
+    background-color: #6c757d; /* Secondary button color for Back */
+}
+
+.info-button-group button:disabled {
+    background-color: #a0a0a0;
+}
+
+.info-button-group button:hover {
+    opacity: 0.9; /* Slightly darken on hover */
+}

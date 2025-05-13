@@ -1,0 +1,89 @@
+/* BrowseCarsPage.css */
+
+.browse-cars-container {
+    font-family: sans-serif;
+    display: auto;
+    flex-direction: column; /* Stack items vertically */
+    min-height: 100vh; /* Ensure it covers the entire viewport height */
+    background-color: #e0eaf5; /* Light blue-gray background */
+    padding: 20px; /* Add some padding around the whole container */
+  }
+  
+  .browse-cars-logo {
+    margin-bottom: 20px; /* Space below the logo */
+    margin-left: 20px; /* Adjust logo position from the left */
+    width: fit-content; /* Adjust width to fit content */
+  }
+  
+  .logo-image {
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .browse-cars-main {
+    display: flex;
+    flex: 1; /* Take up remaining vertical space */
+    margin-top: 60px;
+  }
+  
+  .browse-cars-sidebar {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .browse-cars-category {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .browse-cars-category img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .browse-cars-listings {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .browse-cars-listing {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .browse-cars-listing img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .browse-cars-listing p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .browse-cars-main {
+      flex-direction: column;
+    }
+  
+    .browse-cars-sidebar {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .browse-cars-listings {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }

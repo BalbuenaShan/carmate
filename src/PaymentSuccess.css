@@ -1,0 +1,44 @@
+.payment-success-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2); /* Background gradient */
+}
+
+.payment-success-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%; /* Responsive width */
+}
+
+.payment-success-title {
+    font-size: 24px; /* Title font size */
+}
+
+.payment-success-icon img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+.payment-success-message,
+.payment-success-info {
+    margin: 10px 0; /* Add margin between paragraphs */
+}
+
+.payment-success-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-success-button:hover {
+    opacity: 0.9; /* Slightly darken on hover */
+}

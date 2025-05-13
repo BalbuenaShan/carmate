@@ -1,0 +1,249 @@
+/* CarRental.css */
+.car-rental-container {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.car-rental-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+.hero-section {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.car-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.car-image {
+  width: 180%; /* Changed from 200% to 100% */
+  max-height: 700px; /* Adjust as needed */
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.car-details {
+  width: 100%; /* or a fixed width like 600px */
+  max-width: 650px;
+  margin: 0 auto; /* center horizontally */
+  padding: 20px;
+  background: linear-gradient(to right, #94ABC9, #e0e5ea);
+  font-family: 'Segoe UI', sans-serif;
+  color: #111;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+.car-details h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left; /* Changed from center to left */
+}
+
+
+
+.car-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.car-icons i {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.vehicle-features {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.vehicle-features h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  font-size: 24px; /* Increased font size */
+}
+
+.features-list ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+
+.price {
+  text-align: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.car-model {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.features {
+  margin-bottom: 20px;
+}
+
+.feature-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 20px 0;
+  font-size: 20px; /* Makes the text in feature items bigger */
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Slightly increased spacing for better appearance */
+}
+
+.feature-icon {
+  width: 32px;     /* Increased size from 24px */
+  height: 32px;
+  object-fit: contain;
+}
+
+
+.feature-item span {
+  color: #333;
+  font-size: 16px;
+}
+
+.vehicle-features {
+  margin-bottom: 20px;
+  text-align: left;
+  align-self: flex-start;
+  font-size: 20px; /* Increased font size */
+}
+
+.vehicle-features ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.vehicle-features li {
+  margin-bottom: 5px;
+}
+
+
+.price {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.booking-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #94ABC9;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px auto; /* 'auto' horizontally centers it */
+  color: white;
+  width: 70%; /* or use something like 600px */
+}
+
+
+
+.location,
+.date {
+  text-align: center;
+}
+
+.location-icon,
+.date-icon {
+  width: 22px; /* Slightly smaller icon */
+  height: 22px; /* Slightly smaller icon */
+  margin-bottom: 1px; /* Fine-tune vertical alignment and spacing */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rent-button {
+  background-color: #4E74A6; /* Green */
+  border: none;
+  color: white;
+  padding: 17px 100px; /* Adjusted padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: px;
+  width: auto; /* Changed from 300px to auto */
+}
+
+.rent-button:hover {
+  background-color: #305e9b; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly grow the button */
+}
+
+.divider {
+  width: 1px; /* Make the divider thin */
+  background-color: #ccc; /* Light gray color */
+  height: 50px; /* Adjust the height as needed */
+}
+
+
+
+.feature-row-divider {
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+
+
+
